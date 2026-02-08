@@ -60,7 +60,7 @@ The system allows **Admins, Leads, and Developers** to collaborate efficiently t
 ```bash
 git clone https://github.com/yourusername/pixelforge-nexus.git
 cd pixelforge-nexus
-
+```
 ---
 
 ### Backend setup 
@@ -68,13 +68,23 @@ cd pixelforge-nexus
 cd server
 npm install
 npm run server
+```
+### Backend runs at
+```bash
+http://localhost:5000
+```
 
-
-###Frontend Setup
+### Frontend Setup
 ```bash
 cd client
 npm install
 npm run dev
+```
+
+### Frontend runs at
+```bash
+http://localhost:5173
+```
 
 
 
