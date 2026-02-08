@@ -1,16 +1,77 @@
-# React + Vite
+# PixelForge Nexus  
+**Role-Based Project Collaboration System (MERN Stack)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PixelForge Nexus is a full-stack project collaboration platform designed to manage software projects using **role-based access control**.  
+The system allows **Admins, Leads, and Developers** to collaborate efficiently through project creation, developer assignment, document uploads, and dashboard analytics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### Authentication & Authorization
+- Secure JWT-based authentication
+- Role-based login:
+  - **Admin** – Create projects, assign leads/developers
+  - **Lead** – Manage assigned projects
+  - **Developer** – View assigned projects and documents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Project Management
+- Create and manage projects
+- Assign developers
+- View project details
+- Mark projects as completed
 
-## Expanding the ESLint configuration
+### Document Management
+- Upload project documents
+- Secure file storage
+- Download/view uploaded files
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Dashboard Analytics
+- Total projects
+- Active projects
+- Completed projects
+- Role-based dashboard view
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React.js (Vite)
+- Tailwind CSS
+- Framer Motion
+- Axios
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- Multer (File Upload)
+
+---
+
+
+---
+
+## ⚙️ Installation Guide
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/yourusername/pixelforge-nexus.git
+cd pixelforge-nexus
+
+###Backend Setup
+```bash
+cd server
+npm install
+npm run server
+
+###Frontend Setup
+```bash
+cd client
+npm install
+npm run dev
+
+
+
