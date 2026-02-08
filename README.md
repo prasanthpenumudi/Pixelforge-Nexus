@@ -61,11 +61,14 @@ The system allows **Admins, Leads, and Developers** to collaborate efficiently t
 git clone https://github.com/yourusername/pixelforge-nexus.git
 cd pixelforge-nexus
 
-###Backend Setup
+---
+
+### Backend setup 
 ```bash
 cd server
 npm install
 npm run server
+
 
 ###Frontend Setup
 ```bash
